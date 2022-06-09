@@ -1,0 +1,370 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+}
+.container{
+  max-width: 1400px;
+  margin: auto;
+}
+.section1{
+  background-image: url("../img/IGrzIxlfue 1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.logo img{
+  margin-left: -30px;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 130px;
+}
+.linklar a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(173, 173, 173);
+  transition: 0.2s;
+  margin-left: 20px;
+}
+.linklar a:first-child{
+  color: white;
+  /* margin-left: 0px; */
+}
+.linklar a:hover{
+  color: white;
+}
+.tugma button {
+  padding: 15px 37px;
+  background-color: #F6762C;
+  color: white;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.tugma button:hover{
+  transform: translateY(-5px);
+  background-color: #f6762cc0;
+  cursor: pointer;
+
+}
+/* section1_header boshlandi */
+
+.section1_header{
+  padding: 80px 130px;
+  color: white;
+  font-weight: 500;
+}
+.section1_header b{
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+.section1_header h1{
+  font-size: 57.33px;
+  width: 55%;
+  margin-top: 7px;
+}
+.section1_header p{
+  font-size: 18px;
+  opacity: 0.7;
+  width: 48%;
+  margin: 37px 0;
+}
+
+/* cardlar boshlandi */
+
+.section2{
+    padding: 115px 130px;
+    background-color: #1C1C1C;
+}
+.cards{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, calc(100% / 4.23));
+}
+.card{
+  background-color: #312F30;
+  border-radius: 10px;
+  transition: 0.3s;
+  overflow: hidden;
+
+}
+/* card hover */
+.card:hover{
+  transform: translateY(-10px);
+  color: white;
+}
+.card:hover .rasm img{
+  opacity: 0.6;
+}
+.rasm img{
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+}
+.card .text{
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+.card .text h1{
+  font-size: 20px;
+}
+.card .text p{
+  opacity: 0.7;
+  margin: 15px 0;
+  font-size: 16px;
+}
+
+/* section3 boshlandi */
+.section3{
+  background-color: #312F30;
+  padding: 50px 130px;
+}
+.hamburger{
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.hamb_rasm{
+  width: 550px;
+  height: 500px;
+} 
+.hamb_rasm img {
+  width: 100%;
+  height: 100%;
+}
+.hamb_text {
+  width: 50%;
+}
+.hamb_text h1{
+  font-size: 44.2px;
+}
+.hamb_text p{ 
+  opacity: 0.7;
+  margin: 15px 0;
+  width: 68%;
+  line-height: 19px;
+}
+.hamb_text span{
+  color: #F6762C;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+.hamb_text span del{
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+/* section4 boshlandi */
+
+.section4{
+  background-color:#1C1C1C;
+  padding: 130px;
+}
+
+.boxes{
+  display: grid;
+  grid-template-columns: repeat(2, calc(100% / 2));
+  gap: 20px;
+}
+.box{
+  padding: 50px 0;
+  color: white;
+  transition: 0.3s;
+}
+.box:hover {
+  opacity: 0.6;
+}
+.box h1{
+  font-size: 30px;
+}
+.box p {
+  font-size: 16px;
+}
+.box1{
+  background-image: url("../img//ali-yahya-Qn9DBu5OFDA-unsplash\ 1.png");
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.box2{
+  background-image: url("../img//cAsRJ9IU1Q\ \(1\)\ 1.png");
+  padding: 50px;
+}
+.box3{
+  background-image: url("../img//CDSDQwsqfD\ 1.png");
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.box4{
+  background-image: url("../img//uyW27SeCbK\ 1.png");
+  padding: 50px ;
+}
+
+/* positsiali joylashuv */
+
+.positsion_box{
+  display: flex;
+  padding: 130px 0;
+}
+.profillar{
+  position: relative;
+  padding: 0 100px;
+  width: 50%;
+}
+.profil_img{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.profil_img img{
+  width: 100%;
+  height: 100%;
+}
+.profil_img:nth-child(2){
+  top: 50px;
+  left: 80px;
+}
+.profil_img:nth-child(3){
+  top: 0px;
+  left: 350px;
+}
+.profil_img:nth-child(4){
+  top: 280px;
+  left: 160px;
+}
+.profil_img:nth-child(5){
+  top: 220px;
+  left: 370px;
+}
+.profil_img:nth-child(6){
+  width: 250px;
+  height: 250px;
+  top: 50px;
+  left: 150px;
+}
+.profil_img:nth-child(6):hover{
+  transform: scale(1);
+}
+.profil_img:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.profil_img:hover ~ .kichik_doira {
+  transform: rotate(360deg);
+  border-width: 3px;
+}
+.doira_katta{ 
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  border: 1px dashed #F6762C;  
+  opacity: 0.3;
+}
+.kichik_doira{
+   position: absolute;
+   width: 230px;
+   height: 230px;
+   border: 1px dashed #F6762C;
+   opacity: 0.3;
+   border-radius: 50%;
+   top: 60px;
+   left: 160px;
+   transition: 0.3s;
+}
+
+
+.profil_text{
+  text-align: center;
+  color: white;
+  width: 50%;
+  margin-top: 100px;
+}
+.profil_text h1{
+  font-size: 100px;
+  color: #F6762C;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: -30px;
+}
+.profil_text p {
+  opacity: 0.7;
+  width: 60%;
+  margin: 10px auto;
+  font-size: 14px;
+}
+
+/* footer qisim */
+
+.download{
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 180px;
+  background-color: #312F30;
+}
+.download h1{
+  color: white;
+  font-size: 40px;
+}
+
+.footer{
+  background-color: #1C1C1C;
+  padding: 30px 130px;
+}
+.footer_boxes{
+  display: grid;
+  grid-template-columns: repeat(5, calc(100% / 5));
+  gap: 20px;
+  align-items: center;
+}
+.links a{
+  color: white;
+  text-decoration: none;
+}
+.links a i {
+  color:#F6762C;
+  margin-right: 10px;
+}
+.footer_box ul li{
+  color: white;
+  opacity: 0.7;
+  line-height: 30px;
+  font-size: 12px;
+}
+.footer_box ul li:first-child{
+  opacity: 1;
+  font-size: 16px;
+}
+.footer_box:last-child ul div {
+  display: flex;
+  gap: 10px;
+}
+.footer_box:last-child ul div li {
+  font-size: 20px;
+}
+.footer_box:last-child ul div li:nth-child(1) a{
+  color: #1976D2;
+}
+.footer_box:last-child ul div li:nth-child(2) a{
+  color: #00AEE9;
+}
+.footer_box:last-child ul div li:nth-child(3) a{
+  background: linear-gradient(to top, #D13C99, #FFD353);
+}
+.footer_box:last-child ul div li:nth-child(4) a{
+  color: #0077B7;
+}
